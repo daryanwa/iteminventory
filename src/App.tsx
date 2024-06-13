@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-
-import "./App.css";
+import MainComponent from "./components/main/MainComponent";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <MainComponent />
+    </div>
+  );
 }
 
 export default App;
